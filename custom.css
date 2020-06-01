@@ -1,0 +1,73 @@
+/* Vos customisations des classes de Bootstrap */
+
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+#home {
+        background-image: url('images/hero-image.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px; /* On met ici la même hauteur que le jumbotron */
+        top:0;
+        left:0;
+        z-index: -1;
+       }
+.jumbotron {
+        
+        margin-bottom: 0px;
+        height: 500px;
+        color: white; /* Le texte sera affiché en blanc */
+        background:transparent;
+        text-align: center;
+     }
+.lead{
+    font-size: 1em;
+
+}
+.code{
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+    /* who mise en pace*/
+
+#title{
+    font-weight: bold;
+    color:#ff0000;
+     }
+hr{
+    width: 10%;
+    border-top: 1px solid #ff0000;
+}
+.txtred {
+    color: #ff0000;
+    font-weight: bold;
+}
+#get-involved  {
+    background-color: #d3d3d3;
+    padding-top: 20px;
+    height: 400px;
+
+}
+.card-title {
+    padding-top : 10px;
+    color:#ff0000;
+}
+.blockquote {
+    font-size: 0.8em;  
+    background-color: #ff0000;
+    height: 150px;
+    padding-top: 80px;
+}
